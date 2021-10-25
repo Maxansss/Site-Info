@@ -3,7 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
 } 
-/* nav*/
+/*haut de page*/
 nav{
     display: flex; 
     flex-wrap: wrap;/* met sur une ligne les élémentS*/
@@ -34,7 +34,7 @@ nav .onglets input{
     outline: none;
     background-color: #f2f2f2;
 }
-/* fin de nav*/
+/* fin de haut de page*/
 
 /*header*/
 header{
