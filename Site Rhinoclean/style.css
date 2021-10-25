@@ -12,6 +12,7 @@ nav{
     background-color: rgb(174, 231, 172);
     position: sticky;/*laisse le nav en vue tout le temps*/
     top: 0; 
+    
 }
 nav h1{
     font-size: 20px;
