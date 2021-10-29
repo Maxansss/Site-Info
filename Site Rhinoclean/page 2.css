@@ -129,3 +129,21 @@ footer .réseaux p{
     .produits .photo img{
         width:  300px;
     }/* optimisation pour téléphone*/
+
+    table {
+        border: 2px solid black;
+        color: gray;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    td {
+        border: 2px solid;
+        border-color: black;
+    }
+    
+    .tableau {
+        display: flex;
+        border: 2px solid black;
+    }
