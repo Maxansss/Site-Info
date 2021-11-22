@@ -38,22 +38,17 @@ nav .onglets input{
 /* fin de haut de page*/
 
 .table {
-    border: none;
-    outline: none;
-    padding: 50px;
-    display: block;
-    width: 100%;
-    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
 }
-.mentions {
-    display:block;
-    height: 300px;
-    padding-top: 10px;
-    font-size: 2rem;
+.conditions .trait_dessus
+{
+border-top: 1px solid #000;
+width : 700px;
+} 
 
-}
+
 
 /* footer*/
 footer{
