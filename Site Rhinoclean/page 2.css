@@ -106,7 +106,6 @@ footer{
 
 footer .réseaux{
     display: flex;
-
 }
 footer .réseaux p{
     margin-right: 15px;
@@ -118,6 +117,13 @@ footer .réseaux p{
     cursor: pointer;
     outline: none;
     border: none;
+}
+footer .réseaux .sociaux  {
+ 
+    display: inline-flex;
+}
+footer .réseaux .sociaux p {
+    padding-left: 20px;
 }
 /* fin footer*/
 @media screen and (max-width: 640px){
