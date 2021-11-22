@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: aliceblue;
 } 
 /*haut de page*/
 nav{
@@ -37,17 +38,27 @@ nav .onglets input{
 /* fin de haut de page*/
 
 .table {
-    background-color: #a0a8d8e0;
     border: none;
     outline: none;
     padding: 10px;
     display: block;
-    margin: 10%;
-    border-radius: 10px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("fond couleur.jpg");
 
 }
 
+.mentions {
+    display:block;
+    height: 300px;
+    padding-top: 10px;
+    background-image: url("fond couleur 2.jpg");
+    border-bottom: 2px solid black;
+    color: white;
+    font-size: 2rem;
 
+
+}
 
 
 /* footer*/
