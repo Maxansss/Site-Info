@@ -59,12 +59,13 @@ header button{
 
 /* main section*/
 .main{
-    margin: 20px;
-    margin-top: 80px;
-    display: flex;
+    margin: 50px;
+    margin-left: 100px;
     flex-direction: column;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    border: 2px solid black;
 }
 
 /* produits*/
@@ -83,26 +84,29 @@ header button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
     
 }
-.produits .photo .photo-body p{
-    margin-top: -10px;
+.produits .photo .photo-body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     
 }
 table {
     border: 2px solid black;
     color: gray;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 60px;
+    align-items: center;
 }
 
 td {
     border: 2px solid;
     border-color: black;
+    text-align: center;
 }
 
 .tableau {
@@ -113,15 +117,16 @@ td {
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-
     padding:30px 30px;
     max-width:calc(100vw - 40px);
     box-sizing:border-box;
     font-family:'Montserrat',sans-serif;
-    position:relative;
     margin-top: 100px;
     margin-bottom: 200px;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 }
 /* fin produits*/
