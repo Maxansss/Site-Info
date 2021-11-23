@@ -1,179 +1,167 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
-} 
-/* nav*/
-nav{
-    display: flex; 
-    flex-wrap: wrap;/* met sur une ligne les élémentS*/
-    justify-content: space-between;
-    padding: 20px;
-    background-color: rgb(174, 231, 172);
-    position: sticky;/*laisse le nav en vue tout le temps*/
-    top: 0; 
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-nav h1{
-    font-size: 20px;
+/*haut de page*/
+nav {
+  display: flex;
+  flex-wrap: wrap; /* met sur une ligne les élémentS*/
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(174, 231, 172);
+  position: sticky; /*laisse le nav en vue tout le temps*/
+  top: 0;
 }
-nav .onglets{
-    display: flex;
-    flex-wrap: wrap;
-} 
-nav .onglets p{
-    font-size: 17px;
-    margin-right: 10px;
-    cursor: pointer;
+nav h1 {
+  font-size: 20px;
 }
-nav .onglets input{
-    margin: 8px;
-    padding: 15px;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    background-color: #f2f2f2;
+nav .onglets {
+  display: flex;
+  flex-wrap: wrap;
 }
-/* fin de nav*/
+nav .onglets p {
+  font-size: 17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+nav .onglets input {
+  margin: 8px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+}
+/* fin de haut de page*/
 
 /*header*/
-header{
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;/*met les éléments en colonne*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /*met les éléments en colonne*/
 }
-header h1{
-    font-size: 50px;
-    max-width: 500px;
-    text-align: center;
+header h1 {
+  font-size: 50px;
+  max-width: 500px;
+  text-align: center;
 }
-header button{
-    padding: 15px 20px ;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
+header button {
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
 }
 /* fin du header*/
 
 /* main section*/
-.main{
-    margin: 50px;
-    margin-left: 100px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid black;
+.main {
+  margin: 50px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* produits*/
-.produits{
-    display: flex;
-    flex-wrap: wrap;
+.produits {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.produits .photo{
-    margin-right: 50px;
-    cursor: pointer;
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
 }
-.produits .photo img{
-    width: 350px;
+.produits .photo {
+  /* margin-right: 50px; */
+  width: 300px;
+  cursor: pointer;
 }
-.produits .photo .photo-header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 100px;
-    
+.produits .photo img {
+  width: 350px;
 }
-.produits .photo .photo-body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-table {
-    border: 2px solid black;
-    color: gray;
-    display: block;
-    margin-left: 60px;
-    align-items: center;
+.produits .photo .photo-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 td {
-    border: 2px solid;
-    border-color: black;
-    text-align: center;
+  border: 2px solid;
+  border-color: black;
+  text-align: center;
 }
 
-.tableau {
-    display: flex;
-    border: 2px solid black;
-    width:20%;
-    height:440px;
-    background:#e6e6e6;
-    border-radius:8px;
-    box-shadow:0 0 40px -10px #000;
-    padding:30px 30px;
-    max-width:calc(100vw - 40px);
-    box-sizing:border-box;
-    font-family:'Montserrat',sans-serif;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 240px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  padding: 30px;
+  max-width: calc(100vw - 40px);
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-header td {
+    height: 56px;
 }
 /* fin produits*/
 /* fin main section*/
 
-
 /* footer*/
-footer{
-    margin-top: 100px;
-    background-color:rgba(10, 10, 199, 0.514);
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px;
+footer {
+  margin-top: 100px;
+  background-color: rgba(10, 10, 199, 0.514);
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
 }
 
-footer .réseaux{
-    display: flex;
+footer .réseaux {
+  display: flex;
 }
-footer .réseaux p{
-    margin-right: 15px;
-    border: 1px solid black;
-    border-radius: 100%;
-    padding: 5px;
-    text-align: center;
-    width: 20px;
-    cursor: pointer;
-    outline: none;
-    border: none;
+footer .réseaux p {
+  margin-right: 15px;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 5px;
+  text-align: center;
+  width: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
-footer .réseaux .sociaux  {
- 
-    display: inline-flex;
+footer .réseaux .sociaux {
+  display: inline-flex;
 }
 footer .réseaux .sociaux p {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 /* fin footer*/
-@media screen and (max-width: 640px){
-    nav .onglets .link, nav h1{
-        display: none;
-
-    }
-    }
-    .produits .photo img{
-        width:  300px;
-    }/* optimisation pour téléphone*/
-
-   
+@media screen and (max-width: 640px) {
+  nav .onglets .link,
+  nav h1 {
+    display: none;
+  }
+}
+.produits .photo img {
+  width: 300px;
+} /* optimisation pour téléphone*/
