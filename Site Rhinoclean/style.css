@@ -42,6 +42,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;/*met les éléments en colonne*/
+
 }
 header h1{
     font-size: 50px;
@@ -60,36 +61,39 @@ header button{
 
 /* main section*/
 .main{
-    margin: 50px;
+    margin: 0px;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 /* produits*/
-.produits{
+.produits   {
     display: flex;
     flex-wrap: wrap;
+
 }
-.produits .photo{
+.produits .produits2 .photo{
     margin-right: 50px;
     cursor: pointer;
 }
-.produits .photo img{
+.produits .produits2 .photo img{
     width: 350px;
 }
-.produits .photo .photo-header{
+.produits .produits2 .photo .photo-header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
 }
-.produits .photo .photo-body p{
+.produits .produits2 .photo .photo-body p{
     margin-top: -10px;
     
 }
+
 /* fin produits*/
 /* fin main section*/
 
