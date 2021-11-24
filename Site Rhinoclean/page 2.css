@@ -121,6 +121,10 @@ table {
 .table-header td {
     height: 56px;
 }
+button{
+  align-items: center;
+  justify-content: center;
+}
 /* fin produits*/
 /* fin main section*/
 
