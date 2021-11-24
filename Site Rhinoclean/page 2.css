@@ -116,6 +116,7 @@ table {
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
   text-align: center;
+  border-radius: 20px;
 }
 
 .table-header td {
@@ -124,6 +125,8 @@ table {
 button{
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  flex-direction: column;
 }
 /* fin produits*/
 /* fin main section*/
