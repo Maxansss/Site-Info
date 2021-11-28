@@ -33,8 +33,24 @@ nav .onglets input{
 }
 /* fin de haut de page*/
 
+.nous {
+    display: block;
+    margin-left: 5%;
+    background-color: rgb(240, 235, 235);
+    margin-right: 5%;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
-
+.photo {
+    display: inline-block;
+    float:right;
+    margin-top: -20%;
+    margin-right: 5%;
+}
 
 /* footer*/
 footer{
